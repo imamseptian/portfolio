@@ -1,0 +1,102 @@
+.tools-sec {
+  background: white;
+  padding-top: 20px;
+}
+
+.section-title {
+  position: relative;
+  color: #222629;
+  /* background: red; */
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  font-family: "Oxygen", sans-serif;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  /* top: 100px; */
+  left: 50%;
+  width: 350px;
+  height: 3px;
+  background: #474b4f;
+  transform: translateX(-50%);
+}
+
+.section-title::after {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  font-size: 20px;
+  padding: 5px;
+  background: #fff;
+  transform: translateX(-50%);
+  content: "Familiar languages, libraries, frameworks";
+  color: #474b4f;
+  font-size: 16px;
+  /* width: 300px; */
+}
+
+.tools-content {
+  width: 80%;
+  margin: 10px auto;
+  /* background: yellow; */
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tools-item {
+  flex: 1 0 21%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
+  /* background: red; */
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+  /* justify-content: center; */
+}
+
+.tools-img {
+  width: 64px;
+}
+
+.tools-name {
+  font-size: 14px;
+  /* text-align: center; */
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+@media (max-width: 650px) {
+  .section-title {
+    margin-bottom: 30px;
+  }
+  .section-title::after {
+    bottom: -23px;
+  }
+}
+
+@media (max-width: 415px) {
+  .tools-item {
+    flex: 1 0 33%;
+  }
+}
+
+@media (max-width: 342px) {
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title::after {
+    bottom: -43px;
+  }
+}

@@ -1,0 +1,81 @@
+.skills-sec {
+  background: #222629;
+  /* display: flex; */
+  /* padding: 20px 50px; */
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-right: 50px;
+  padding-left: 50px;
+  /* background: red; */
+  /* justify-content: center; */
+  /* padding: 20px; */
+}
+
+.skills-box {
+  background: red;
+  /* width: 80vw; */
+  /* background: ; */
+  /* background: red; */
+  /* border: 1px solid white; */
+  /* background: red; */
+  /* margin: 0 auto; */
+}
+
+.title.dark {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.title.dark::before {
+  background: #86c232;
+}
+
+.skills-sec .title::before {
+  width: 300px;
+}
+
+.title.dark::after {
+  background: #222629;
+}
+
+.title.dark::after {
+  /* content: "Who I am ?"; */
+  content: "What my latest project ?";
+  color: #86c232;
+}
+
+.custom-dot-slider {
+  background: #000;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  /* margin-top: 15px; */
+}
+
+.custom-dot-slider.selected {
+  background: #fff;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  /* margin-top: 15px; */
+}
+
+@media (max-width: 590px) {
+  .title.dark::after {
+    bottom: -40px;
+  }
+  .title.dark {
+    color: #fff;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title.dark::after {
+    bottom: -65px;
+  }
+  .title.dark {
+    color: #fff;
+    margin-bottom: 70px;
+  }
+}

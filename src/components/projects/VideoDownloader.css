@@ -1,0 +1,131 @@
+.project-content-video-left {
+  width: 500px;
+  /* background: red; */
+  background: linear-gradient(220deg, rgba(0, 182, 250), rgba(0, 182, 250, 0));
+  padding: 20px 0;
+  /* display: flex; */
+}
+
+.project-content-video-right {
+  /* width: 65%; */
+  flex: 1;
+  /* background: #fff; */
+  min-height: 500px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: space-between;
+}
+
+.custom-slick-img-video-dots {
+  width: 20px;
+  height: 30px;
+  object-fit: cover;
+}
+
+.custom-slick-img-video-dots.selected {
+  border: 2px solid white;
+}
+
+.social-video-img-wrapper {
+  width: 450px;
+  height: 300px;
+  /* background: pink; */
+  position: relative;
+  margin: 0 auto;
+}
+
+.social-video-img {
+  height: 400px;
+  width: auto;
+  margin: 0 auto;
+  /* width: 200px; */
+  /* height: auto; */
+}
+.social-video-img.landscape {
+  height: 300px;
+  width: auto;
+
+  margin: 50px auto;
+}
+
+.custom-slick-social-dots {
+  width: 20px;
+  height: auto;
+  object-fit: cover;
+}
+
+.social-video-img.landscape {
+  width: 450px;
+  top: 50px;
+  left: 0;
+}
+
+.social-video-img.opaque {
+  opacity: 1;
+}
+
+@media (max-width: 1000px) {
+  .project-content-video-left {
+    width: 100%;
+
+    /* border-top-left-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    height: 450px;
+  }
+  .project-content-video-right {
+    /* flex: 1; */
+    width: 90%;
+    align-items: center;
+    justify-content: start;
+    /* background: red; */
+    /* padding-right: 1000px; */
+    min-height: 0px;
+  }
+}
+
+@media (max-width: 966px) {
+  .project-content-video-right {
+    flex: 1;
+  }
+}
+
+@media (max-width: 630px) {
+  .social-video-img.landscape {
+    height: 250px;
+    width: auto;
+
+    margin: 70px auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-content {
+    width: 96%;
+  }
+}
+
+@media (max-width: 468px) {
+  .social-video-img.landscape {
+    /* width: 300px; */
+    height: 170px;
+    width: auto;
+
+    margin: 70px auto;
+  }
+}
+
+@media (max-width: 330px) {
+  .social-video-img {
+    height: 300px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .project-content-video-left {
+    height: 350px;
+  }
+}
