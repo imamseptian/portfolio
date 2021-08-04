@@ -4,6 +4,7 @@ import AkuBisa from "./projects/AkuBisa";
 import FoodRecommendation from "./projects/FoodRecommendation";
 import Kostku from "./projects/Kostku";
 import VideoDownloader from "./projects/VideoDownloader";
+import LiveChat from "./projects/LiveChat";
 import "./Skills.css";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 // import '../fontawesome'
@@ -40,6 +41,7 @@ const Skills = forwardRef((props, ref) => {
       <h2 className="title dark">My Projects</h2>
       {/* <div style={{ background: "red" }}> */}
       <Slider {...settings}>
+        <LiveChat />
         <Kostku />
         {/* <Kostku /> */}
 
