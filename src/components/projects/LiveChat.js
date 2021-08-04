@@ -103,7 +103,7 @@ const LiveChat = () => {
             {/* </div> */}
 
             <a
-              href="https://github.com/imamseptian/react-livechat"
+              href="https://react-livechat.vercel.app/"
               // className="button-framework"
               className="custom-btn btn-kostku"
               target="_blank"
@@ -125,6 +125,31 @@ const LiveChat = () => {
                 size="lg"
               />
               Go to Project Repository
+            </a>
+
+            <a
+              href="https://imamseptian.github.io/portfolio/"
+              // className="button-framework"
+              className="custom-btn btn-kostku"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                background:
+                  "linear-gradient(0deg, rgba(22, 27, 34, 1), rgba(55, 23, 34, 1))",
+                color: "white",
+              }}
+              // style={{
+              //   background: "#161b22",
+              //   color: "white",
+              //   border: "1px solid white",
+              // }}
+            >
+              <FontAwesomeIcon
+                icon={["fas", "globe"]}
+                style={{ marginRight: "10px" }}
+                size="lg"
+              />
+              Check the website
             </a>
           </div>
 
