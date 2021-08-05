@@ -103,7 +103,7 @@ const LiveChat = () => {
             {/* </div> */}
 
             <a
-              href="https://react-livechat.vercel.app/"
+              href="https://github.com/imamseptian/react-livechat"
               // className="button-framework"
               className="custom-btn btn-kostku"
               target="_blank"
@@ -128,7 +128,7 @@ const LiveChat = () => {
             </a>
 
             <a
-              href="https://imamseptian.github.io/portfolio/"
+              href="https://react-livechat.vercel.app/"
               // className="button-framework"
               className="custom-btn btn-kostku"
               target="_blank"
