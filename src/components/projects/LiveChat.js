@@ -149,7 +149,7 @@ const LiveChat = () => {
                 style={{ marginRight: "10px" }}
                 size="lg"
               />
-              Check the website
+              Check the Website
             </a>
           </div>
 
