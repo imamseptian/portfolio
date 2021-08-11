@@ -10,6 +10,8 @@ import php from "../images/tools/php.png";
 import python from "../images/tools/python.png";
 import reacticon from "../images/tools/react.png";
 import tensorflowicon from "../images/tools/tensorflow.png";
+import mysqlicon from "../images/tools/mysql.png";
+import htmlicon from "../images/tools/html.png";
 import "./Tools.css";
 
 const Tools = forwardRef((props, ref) => {
@@ -25,15 +27,26 @@ const Tools = forwardRef((props, ref) => {
       url: "https://www.php.net/",
     },
     {
-      name: "Python",
-      img: python,
-      url: "https://www.python.org/",
+      name: "HTML",
+      img: htmlicon,
+      url: "https://en.wikipedia.org/wiki/HTML",
     },
     {
       name: "CSS",
       img: cssicon,
       url: "https://www.w3schools.com/css/",
     },
+    {
+      name: "MySQL",
+      img: mysqlicon,
+      url: "https://www.mysql.com/",
+    },
+    {
+      name: "Python",
+      img: python,
+      url: "https://www.python.org/",
+    },
+
     {
       name: "Express JS",
       img: expressicon,
@@ -58,16 +71,6 @@ const Tools = forwardRef((props, ref) => {
       name: "Laravel",
       img: laravelicon,
       url: "https://laravel.com/",
-    },
-    {
-      name: "Code-Igniter",
-      img: codeigniter,
-      url: "https://codeigniter.com/",
-    },
-    {
-      name: "Tensorflow",
-      img: tensorflowicon,
-      url: "https://www.tensorflow.org/",
     },
     {
       name: "Flask",
