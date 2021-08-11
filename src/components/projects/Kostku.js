@@ -104,7 +104,7 @@ const Kostku = () => {
             {/* </div> */}
             <div className="wrapper-github-kostku">
               <a
-                href="https://github.com/imamseptian/kostku-rn06.3"
+                href="https://github.com/imamseptian/kostku-fullstack"
                 // className="button-framework"
                 className="custom-btn btn-kostku "
                 target="_blank"

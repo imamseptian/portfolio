@@ -113,7 +113,7 @@ const VideoDownloader = () => {
             {/* </div> */}
 
             <a
-              href="https://github.com/imamseptian/next-video-downloader"
+              href="https://github.com/imamseptian/fullstack-social-video-downloader"
               // className="button-framework"
               className="custom-btn btn-kostku"
               target="_blank"

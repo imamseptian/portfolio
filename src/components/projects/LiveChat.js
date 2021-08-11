@@ -103,7 +103,7 @@ const LiveChat = () => {
             {/* </div> */}
 
             <a
-              href="https://github.com/imamseptian/react-livechat"
+              href="https://github.com/imamseptian/simple-livechat"
               // className="button-framework"
               className="custom-btn btn-kostku"
               target="_blank"
