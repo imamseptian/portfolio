@@ -40,7 +40,7 @@ const About = forwardRef((props, ref) => {
             {/* <a href="#">Download CV</a> */}
             <a
               className="custom-btn btn-cv"
-              href="https://drive.google.com/file/d/17qk4NtXw_d5Ppz23YfHR1vYUHWIxrgNn/view?usp=sharing"
+              href="https://drive.google.com/file/d/1G5YB23TYTKbMd5bnljWbTIP6EY2WzjfJ/view?usp=sharing"
               target="_blank"
               // rel="noreferrer"
             >
