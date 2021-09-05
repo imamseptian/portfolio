@@ -6,6 +6,7 @@ import Kostku from "./projects/Kostku";
 import VideoDownloader from "./projects/VideoDownloader";
 import LiveChat from "./projects/LiveChat";
 import PepeManga from "./projects/PepeManga";
+import IndoCovid from "./projects/IndoCovid";
 import "./Skills.css";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 // import '../fontawesome'
@@ -42,6 +43,7 @@ const Skills = forwardRef((props, ref) => {
       <h2 className="title dark">My Projects</h2>
       {/* <div style={{ background: "red" }}> */}
       <Slider {...settings}>
+        <IndoCovid />
         <PepeManga />
         <LiveChat />
         <Kostku />
